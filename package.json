@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-sharesdk",
+  "description": "A cordova for share with wechat,QQ,QQZONE,sinaWeibo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luomusha/cordova-plugin-sharesdk.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "phonegap",
+    "sharesdk",
+    "share"
+  ],
+  "author": "lossa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luomusha/cordova-plugin-sharesdk/issues"
+  },
+  "homepage": "https://github.com/Luomusha/cordova-plugin-sharesdk#readme"
+}
