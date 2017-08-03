@@ -188,8 +188,10 @@
              NSLog(@"%@", user.birthday);
              NSLog(@"%@", user.url);
              NSLog(@"***************************************************");
+
              CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK
-                                                               messageAsString:[NSString stringWithFormat:@"success"]];
+                                                                      messageAsDictionary:user.rawData];
+
              [self.commandDelegate sendPluginResult:pluginResult
                                          callbackId:command.callbackId];
 
