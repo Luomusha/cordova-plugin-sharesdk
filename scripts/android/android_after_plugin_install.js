@@ -12,7 +12,7 @@ module.exports = function(context) {
     var wxapiPath = context.opts.projectRoot + '/platforms/android/src/' + packageName.replace(/\./g, '/') + '/wxapi';
     var WXEntryActivityPath = wxapiPath + '/WXEntryActivity.java';
 
-    fs.readFile(context.opts.projectRoot + '/plugins/cordova-plugin-sharesdk/src/android/ShareSDK/src/behring/cordovasharesdk/wxapi/WXEntryActivity.java', 'utf8', function(err, data) {
+    fs.readFile(context.opts.projectRoot + '/plugins/cordova-plugin-sharesdk/src/android/target/package/wxapi/WXEntryActivity.java', 'utf8', function(err, data) {
         if (err) throw err;
         var result = data.replace(/PACKAGENAME/g, packageName);
         fs.stat(wxapiPath, (err, stats) => {
