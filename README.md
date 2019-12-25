@@ -1,6 +1,7 @@
 # cordova-plugin-sharesdk
 A cordova for share with wechat,QQ,QQZONE,sinaWeibo
 
+# 此库已停止维护。
 
 #说明
 十分感谢，[赵新](https://github.com/raistlinzx)。这个插件仿照[赵新](https://github.com/raistlinzx/cordova-plugin-sharesdk)的插件写的。
